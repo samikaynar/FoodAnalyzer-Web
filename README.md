@@ -1,14 +1,19 @@
-# Know Your Food Pro 🍎
+# Know Your Food 🍎
 
-A professional AI-powered food health analyzer with Flask backend.
+A simple web application that helps you understand how healthy your food is using AI.
 
 ## Features
 
-- 🚀 **No API key required** for users
-- 🤖 **AI-powered health analysis**
-- 💫 **Modern, responsive design**
-- ⚡ **Fast and reliable**
-- 🎯 **Accurate food assessments**
+- 🤖 AI-powered food analysis
+- 💫 Clean and modern design
+- ⚡ Fast and responsive
+- 🎯 Health scores 1-10 with detailed analysis
+
+## How to Use
+
+1. Visit the website
+2. Enter any food product name
+3. Get instant health analysis with score and recommendations
 
 ## Technology Stack
 
@@ -16,11 +21,18 @@ A professional AI-powered food health analyzer with Flask backend.
 - **AI:** OpenAI GPT-3.5 Turbo
 - **Frontend:** HTML5, CSS3, JavaScript
 - **Hosting:** Railway
-- **Styling:** Modern CSS with gradients
+- **Styling:** Modern CSS
 
-## Local Development
+## Files
 
-1. **Clone repository**
-2. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
+- `app.py` - Main Flask application
+- `requirements.txt` - Python dependencies
+- `static/style.css` - Stylesheet
+- `static/app.js` - Frontend JavaScript
+- `templates/` - HTML templates
+- `README.md` - Project documentation
+
+## Live Demo
+https://web-production-346e1.up.railway.app
+
+Created by Sami Kaynar - Student Project
