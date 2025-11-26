@@ -1,38 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact - Know Your Food</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Know Your Food</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-  <nav class="nav-container">
-    <div class="nav">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-    </div>
-  </nav>
+    <nav class="nav-container">
+        <div class="nav">
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/contact">Contact</a>
+        </div>
+    </nav>
 
-  <header>
-    <h1>Contact</h1>
-    <p>Get in touch with me</p>
-  </header>
+    <header>
+        <h1>Contact</h1>
+        <p>Get in touch</p>
+    </header>
 
-  <main>
-    <section class="contact-section">
-      <div class="contact-info">
-        <h2>Sami Kaynar</h2>
-        <p><strong>Email:</strong> skaynar@anderson.edu</p>
-        <p>If you have any questions, please email me at this address.</p>
-      </div>
-    </section>
-  </main>
+    <main>
+        <section class="contact-section">
+            <div class="contact-info">
+                <h2>Sami Kaynar</h2>
+                <p><strong>Email:</strong> skaynar@anderson.edu</p>
+                <p><strong>Project:</strong> Know Your Food</p>
+                <p>This is a student project for learning web development and AI integration.</p>
+                <p>Feel free to reach out if you have questions or feedback.</p>
+            </div>
+        </section>
+    </main>
 
-  <footer>
-    <p>Created by Sami Kaynar</p>
-    <p>&copy; 2025 Know Your Food</p>
-  </footer>
+    <footer>
+        <p>Created by Sami Kaynar</p>
+        <p>&copy; 2025 Know Your Food</p>
+    </footer>
 </body>
 </html>
