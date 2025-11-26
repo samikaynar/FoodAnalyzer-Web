@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Know Your Food</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav class="nav-container">
+        <div class="nav">
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/contact">Contact</a>
+        </div>
+    </nav>
+
+    <header>
+        <h1>About Our Project</h1>
+        <p>Learn how we help you make better food choices</p>
+    </header>
+
+    <main>
+        <section class="about-section">
+            <h2>What is Know Your Food?</h2>
+            <p>This is an AI-powered web application that provides instant health analysis of food products using advanced machine learning technology.</p>
+            
+            <h2>How It Works</h2>
+            <p>Simply enter any food product name, and our AI system will analyze its nutritional value and provide a comprehensive health assessment including:</p>
+            <ul>
+                <li>Health score from 1 to 10</li>
+                <li>Key health factors and ingredients</li>
+                <li>Potential benefits and risks</li>
+                <li>Healthier alternatives</li>
+                <li>Personalized recommendations</li>
+            </ul>
+            
+            <h2>Our Technology</h2>
+            <p>Powered by OpenAI's GPT-3.5 Turbo and built with Flask backend, our system provides accurate, real-time food analysis without requiring users to enter any API keys.</p>
+            
+            <h2>Our Mission</h2>
+            <p>To empower people to make informed food choices through accessible AI technology and promote healthier eating habits.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Created by Sami Kaynar</p>
+        <p>&copy; 2025 Know Your Food Pro</p>
+    </footer>
+</body>
+</html>

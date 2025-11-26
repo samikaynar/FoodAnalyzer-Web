@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Know Your Food - Professional</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav class="nav-container">
+        <div class="nav">
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/contact">Contact</a>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Know Your Food</h1>
+        <p>AI-powered food health analysis</p>
+    </header>
+
+    <main>
+        <section class="search-section">
+            <h2>Check Any Food Product</h2>
+            
+            <article class="search-method">
+                <label for="product-name">Enter food product name:</label><br>
+                <input type="text" id="product-name" placeholder="e.g. chocolate, apple, pizza...">
+                <button id="search-btn">Analyze</button>
+                <div class="note">
+                    <p>No API key needed! Powered by our AI system.</p>
+                </div>
+            </article>
+        </section>
+
+        <section id="results-section" class="results-section" style="display: none;">
+            <h2>Analysis Results</h2>
+            <div id="results-container"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Created by Sami Kaynar</p>
+        <p>&copy; 2025 Know Your Food Pro</p>
+    </footer>
+
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
